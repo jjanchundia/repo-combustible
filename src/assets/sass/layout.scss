@@ -1,0 +1,118 @@
+/*Azul*/
+$light-blue: #e4eff9;
+$new-blue: #bcdfff;
+$principal-blue: #0091da;
+$dark-blue: #59adec;
+/*cyan*/
+$light-cyan: #eaf6f7;
+$principal-cyan: #00c4d9;
+$dark-cyan: #00aecb;
+/*purpura*/
+$light-midnight: #e1e6f4;
+$new-purple: #d1ddff;
+$midnight: #8b5cf6;
+$dark-midnight: #162b48;
+/*naranja*/
+$light-orange: #fff1e2;
+$orange: #f2af32;
+$dark-orange: #ff7000;
+/*rojo*/
+$light-red: #fff2f3;
+$red: #ff3a3a;
+/*verde*/
+$light-green: #e8f5f1;
+$green: #19d5c7;
+/*grises*/
+$light-gray: #f1f5f9;
+$medium-gray: #e6e6e6;
+$gray: #969696;
+$dark-gray: #333333;
+$text-gray: #464646;
+/*Responsive*/
+$extra-extra-big: "(max-width: 1920px)";
+$extra-big: "(max-width: 1550px)";
+$big: "(max-width: 1450px)";
+$extra-extra-large: "(max-width: 1300px)";
+$extra-large: "(max-width: 1200px)";
+$xl: "(max-width: 1140px)";
+$large: "(max-width: 992px)";
+$medium: "(max-width: 768px)";
+$small: "(max-width: 576px)";
+$vertical: "(max-height: 1000px)";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100;200;300;400;500;600;700;800&display=swap');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  color: $text-gray;
+  height: 100%;
+  background: $light-gray;
+}
+
+.btn-outline-secondary{
+  background: $midnight;
+  border: solid $midnight 1px;
+  color: white;
+}
+
+.btn-primary{
+  background-color: $midnight;
+  border: solid 1px $midnight;
+  &:hover{
+    background-color: transparent;
+    color: $midnight;
+  }
+}
+
+.btn-secondary{
+  border: solid 1px #6c757d;
+  &:hover{
+    background-color: transparent;
+    color: #6c757d;
+  }
+}
+
+.color-red{
+  color: $red;
+}
+
+.color-blue{
+  color: $dark-blue;
+}
+
+.color-green{
+  color: $green;
+}
+
+.color-orange{
+  color: $orange;
+}
+
+
+.bg-red{
+  background: $red;
+}
+
+.bg-blue{
+  background: $dark-blue;
+}
+
+.bg-green{
+  background: $green;
+}
+
+.bg-orange{
+  background: $orange;
+}
+
+.bg-dark-gray{
+  background: $dark-gray;
+}
+
+
+
